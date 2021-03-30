@@ -281,8 +281,8 @@ include_once 'dbconnection.php';
             $sqlProducts ="SELECT * FROM sales_item";
             $sqlProject = "SELECT * FROM project;";
             $sqlTopTenProject = "SELECT * FROM project ORDER BY project.bid_count DESC LIMIT 10";
-            $sqlTopTenProduct = "SELECT * FROM sales_item LIMIT 10;";
-            $sqlTopTenSeller ="SELECT * FROM users LIMIT 10;";
+            $sqlTopTenProduct = "SELECT * FROM sales_item ORDER BY sales_item.item_rating DESC LIMIT 10";
+            $sqlTopTenSeller ="SELECT * FROM users ORDER BY users.seller_rating DESC LIMIT 10 ;";
             $sqlSeller ="SELECT * FROM users;";
 
 
