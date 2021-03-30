@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost:3306" ; 
-    $username =  "root";
-    $password =  "azqswx";
+    $username =  "project-user";
+    $password =  "123";
     $dbname =  "OrayData";
 
 
